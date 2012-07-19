@@ -1,5 +1,4 @@
-Meridian CodeIgniter CodeBase
------------------------------
+# Meridian CodeIgniter CodeBase
 
 ## A responsive PHP framework for use as a starting point (boilerplate) for Meridian Softech (http://meridiansoftech.net) apps
 
@@ -10,4 +9,3 @@ This codebase contains the following components:
 * jQuery
 
 Simple, Lightweight and Flexible. That's how we like it!
-
