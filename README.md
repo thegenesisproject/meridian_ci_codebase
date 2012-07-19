@@ -1,6 +1,6 @@
 # Meridian CodeIgniter CodeBase
 
-## A responsive PHP framework for use as a starting point (boilerplate) for Meridian Softech (http://meridiansoftech.net) apps
+### A responsive PHP framework for use as a starting point (boilerplate) for Meridian Softech (http://meridiansoftech.net) apps
 
 This codebase contains the following components:
 
