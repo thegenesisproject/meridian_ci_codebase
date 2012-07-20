@@ -13,9 +13,7 @@ Simple, Lightweight and Flexible. That's how we like it!
 ## How To Get Started
 
 #### Clone this Repo into your working directory
-'''bash
 git clone https://github.com/meridiansoftech/meridian_ci_codebase.git
-'''
 
 #### Change database settings
 Go to application/config/development/database.php and change the settings to those of your local database server.
