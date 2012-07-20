@@ -48,8 +48,8 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
+$db['default']['hostname'] = ''; // YOUR PRODUCTION HOST e.g. tunnel.pagodabox.com 
+$db['default']['username'] = 'root'; // YOUR PRODUCTION USERNAME
 $db['default']['password'] = '';
 $db['default']['database'] = ''; // YOUR PRODUCTION DATABASE NAME
 $db['default']['dbdriver'] = 'mysqli';
