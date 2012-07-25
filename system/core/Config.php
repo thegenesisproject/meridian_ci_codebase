@@ -96,11 +96,11 @@ class CI_Config {
 	function load($file = '', $use_sections = FALSE, $fail_gracefully = FALSE)
 	{
 		$file = ($file == '') ? 'config' : str_replace('.php', '', $file);
-		$found = FALSE;
 		$loaded = FALSE;
 
 		foreach ($this->_config_paths as $path)
 		{
+			$found = FALSE;
 			$check_locations = defined('ENVIRONMENT')
 				? array(ENVIRONMENT.'/'.$file, $file)
 				: array($file);
