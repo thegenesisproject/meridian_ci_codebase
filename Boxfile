@@ -1,0 +1,9 @@
+web1: #component type & number
+  name: web_app            #component settings
+  shared_writable_dirs:
+    - application/cache
+    - application/logs
+  php_extensions:
+    - mysql
+    - mysqli
+    - curl
