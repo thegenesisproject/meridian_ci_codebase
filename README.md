@@ -34,3 +34,5 @@ All you have to do is visit the [PagodaBox website](https://pagodabox.com) and a
 	
 	Key : PLATFORM
 	Value : PAGODA
+
+Finally, enter your PagodaBox database settings into application/config/database.php. Enjoy!
