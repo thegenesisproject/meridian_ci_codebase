@@ -11,6 +11,27 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- Descriptive Meta Tags -->
+
+	<meta name="keywords" content="key, words, here" />
+	<meta name="description" content="Description of App" />
+	<meta name="copyright" content="Copyright (c) CompanyName 2012" />
+	<meta name="language" content="EN-GB" />
+	<meta name="author" content="Meridian Softech, feedback@meridiansoftech.net">
+
+	<!-- Open Graph Meta Tags -->
+
+	<meta name="og:title" content="Object Title e.g. SongName"/>
+	<meta name="og:type" content="company"/>
+	<meta name="og:url" content="http://example.com/"/>
+	<meta name="og:image" content="http://example.com/assets/images/logo.png"/>
+	<meta name="og:site_name" content="App Name"/>
+	<meta name="og:description" content="Description of Application"/>
+
+	<meta name="og:email" content="feedback@meridiansoftech.net"/>
+
 	<title>
 	<?php if (!isset($page_title)){echo "Welcome";} else {echo $page_title;} ?>
 	</title>
@@ -33,5 +54,9 @@
 	<![endif]-->
 
 	<link rel="icon" type="image/ico" href="<?php echo base_url('assets/images'); ?>/favicon.ico">
+
+	<!-- Necessary Scripts -->
+	<script src="<?php echo base_url('assets/foundation'); ?>/javascripts/modernizr.foundation.js"></script>
+	<script src="<?php echo base_url('assets/js'); ?>/head.load.min.js"></script>
 </head>
 <body>

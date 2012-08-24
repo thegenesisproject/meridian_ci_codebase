@@ -1,9 +1,4 @@
 
-	<script src="<?php echo base_url('assets/foundation'); ?>/javascripts/modernizr.foundation.js"></script>
-
-	<!-- Included Head.JS File -->
-	<script src="<?php echo base_url('assets/js'); ?>/head.load.min.js"></script>
-
 	<!-- Import all other JS files using HeadJS -->
 	<script type="text/javascript">
 	head.js("<?php echo base_url('assets/foundation/'); ?>/javascripts/jquery.min.js")
