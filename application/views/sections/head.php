@@ -48,6 +48,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/foundation'); ?>/stylesheets/ie.css">
 	<![endif]-->
 
+	<script src="<?php echo base_url('assets/foundation'); ?>/javascripts/modernizr.foundation.js"></script>
+
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -56,7 +58,7 @@
 	<link rel="icon" type="image/ico" href="<?php echo base_url('assets/images'); ?>/favicon.ico">
 
 	<!-- Necessary Scripts -->
-	<script src="<?php echo base_url('assets/foundation'); ?>/javascripts/modernizr.foundation.js"></script>
 	<script src="<?php echo base_url('assets/js'); ?>/head.load.min.js"></script>
+
 </head>
 <body>
